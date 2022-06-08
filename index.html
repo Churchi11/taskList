@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zadaniye</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="task_list">
+        <h1>Task list</h1>
+        <div class="create_new_task" >
+            <input type="text" class="message" id="description-task" placeholder="Описание">
+            <button class="btn-add" id="add-task-btn">add task</button>
+        </div>
+
+
+        <div class="task_update">
+            <button class="btn-ready" id="readyAll" onclick="updateList()">ready all</button>
+            <button class="btn-remove" id="remove" onclick="clearList()"> remove all</button>
+        </div>
+
+        <div class="task-wrapper">
+
+        </div>
+    </div>
+
+</div>
+
+
+<script src="main.js"> </script>
+
+</body>
+</html>
+
+
+
+
+
+
